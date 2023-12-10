@@ -20,7 +20,7 @@ const PubNews = ()=>{
             }
           />
 
-            {
+            {/* {
                 data?
           <div className="p-4 md:p-8">
             <h1 className="text-center text-4xl	">{data.title}</h1>
@@ -38,7 +38,7 @@ const PubNews = ()=>{
             </div>
           </div>
             :''
-            }
+            } */}
 
 
         </Layout>
