@@ -98,11 +98,18 @@ const Navbar = () => {
             }
           })}
         </ul>
-        <PLink
+        {/* <PLink
           href="become-a-member"
           text="Become A Member"
           styles="border border-secondary text-secondary xl:flex hidden  ml-20 "
-        />
+        /> */}
+                            <a
+                    href="https://aani.rel8membership.com/verify-membership"
+                    className={` border border-secondary  text-secondary flex  p-2 font-poppins transition ease-in-out   hover:scale-105  duration-300   hover:opacity-80   outline-none  whitespace-nowrap rounded-md`}
+                    // target="_blank"
+      >
+        Join Now
+      </a>
         <div className="xl:hidden flex flex-1 justify-end items-center">
           {toggle ? (
             <AiOutlineClose

@@ -6,41 +6,41 @@ import Button from "../Button";
 import PLink from "../PLink";
 
 export const eventdata = [
-  {
-    date_month:'Nov',
-    date_day:'08',
-    title:'AANI Within Public Sector Based Operations',
-    year:''
-  },
-  {
-    date_month:'Sept',
-    date_day:'13',
-    title:'AANI &amp; Data Analytics',
-    year:'2024'
+  // {
+  //   date_month:'Nov',
+  //   date_day:'08',
+  //   title:'AANI Within Public Sector Based Operations',
+  //   year:''
+  // },
+  // {
+  //   date_month:'Sept',
+  //   date_day:'13',
+  //   title:'AANI &amp; Data Analytics',
+  //   year:'2024'
 
-  },
-  {
-    date_month:'Aug',
-    date_day:'14',
-    title:'Continuous Professional Development Training Programme',
-    year:'2024'
+  // },
+  // {
+  //   date_month:'Aug',
+  //   date_day:'14',
+  //   title:'Continuous Professional Development Training Programme',
+  //   year:'2024'
 
-  },
-  {
-    date_month:'July',
-    date_day:'12',
-    title:'Customer Experience Management',
-    year:'2024'
+  // },
+  // {
+  //   date_month:'July',
+  //   date_day:'12',
+  //   title:'Customer Experience Management',
+  //   year:'2024'
 
-  }
-  ,
-  {
-    date_month:'June',
-    date_day:'14',
-    title:'Continuous Professional Development Training Programme',
-    year:'2024'
+  // }
+  // ,
+  // {
+  //   date_month:'June',
+  //   date_day:'14',
+  //   title:'Continuous Professional Development Training Programme',
+  //   year:'2024'
 
-  }
+  // }
 ]
 const GetMore = () => {
   return (
@@ -122,10 +122,10 @@ const GetMore = () => {
           <div className="mt-20    flex items-center justify-center  ">
             <div className=" ">
               <h2 className="text-primary mb-3 text-center font-bold text-[25px] md:text-[39px] font-inter ">
-                Join Our Upcoming Events
+                Join Our Upcoming Events(Coming soon)
               </h2>
               <div className="">
-                {[28, 22, 15, 5].map((a) => (
+                {[].map((a) => (
                   <div key={a} className="flex  border-b border-[#DBDBDB] py-2">
                     <div className="font-semibold text-[#00305E] text-[21px] font-inter mr-6">
                       <p className="text-[12px]  border-b-2 border-[#9ACA3C] pb-1 ">

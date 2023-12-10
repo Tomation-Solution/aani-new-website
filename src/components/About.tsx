@@ -66,7 +66,7 @@ const About = ({ max }: AboutProps) => {
                 className="cursor-pointer mb-2 z-20 relative"
               />
               )} */}
-                <img
+                {/* <img
                   width={270}
                   height={350}
                   src={item.img}
@@ -78,7 +78,7 @@ const About = ({ max }: AboutProps) => {
                 {item.title}
               </p>
               <Link href={item.link} className="text-blue"><strong>See details</strong></Link>
-         
+          */}
             </div>
           ))}
         </div>
