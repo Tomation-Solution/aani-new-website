@@ -8,7 +8,7 @@ import { useRouter } from "next/router"
 const PubNews = ()=>{
     const route = useRouter()
     const {id} = route.query
-    const data = publicationAndNews.filter((d)=>d.id ==id)[0]
+    // const data = publicationAndNews.filter((d)=>d.id ==id)[0]
     console.log({id})
 
     return(
