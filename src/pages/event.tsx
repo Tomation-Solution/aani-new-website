@@ -19,7 +19,7 @@ export default function Events() {
         <Layout>
           <Hero img={"womenwriting"} title={"Event"} />
           {/* <Service /> */}
-            <div className="xl:grid-cols-4 md:grid-cols-2 grid gap-4 my-8 container mx-auto">
+            {/* <div className="xl:grid-cols-4 md:grid-cols-2 grid gap-4 my-8 container mx-auto">
             {eventdata.map((t,index)=>(
                 <div
                 key={index}
@@ -36,7 +36,7 @@ export default function Events() {
                 </div>
               </div>
             ))}
-            </div>
+            </div> */}
           <Interestedfn />
         </Layout>
       </main>
