@@ -49,7 +49,7 @@ export default function Home() {
                           {card.content}
                         </p>
                       )}
-                      {card?.list && (
+                      {/* {card?.list && (
                         <ul>
                           {card?.list.map((item, idx) => (
                             <li
@@ -60,7 +60,7 @@ export default function Home() {
                             </li>
                           ))}
                         </ul>
-                      )}
+                      )} */}
                     </div>
                   ))}
                 </div>

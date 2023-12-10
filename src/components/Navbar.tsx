@@ -31,7 +31,7 @@ const Navbar = () => {
           {/* <LogoIcon /> */}
           <Image src={"/logo.PNG"} alt="" height={60} width={60} />
         </Link>
-        <ul className="list-none xl:flex hidden  items-center flex-1">
+        {/* <ul className="list-none xl:flex hidden  items-center flex-1">
           {navLinks.map((nav, index) => {
             if (!nav?.list) {
               return (
@@ -94,7 +94,7 @@ const Navbar = () => {
               );
             }
           })}
-        </ul>
+        </ul> */}
         <PLink
           href="become-a-member"
           text="Become A Member"
