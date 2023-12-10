@@ -1,7 +1,8 @@
-export const navLinks = [
+export const navLinks:any = [
   {
     id: "about-us",
     title: "About AANI",
+    list:[]
   },
   // {
   //   id: "services",

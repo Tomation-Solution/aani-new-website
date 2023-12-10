@@ -31,8 +31,9 @@ const Navbar = () => {
           {/* <LogoIcon /> */}
           <Image src={"/logo.PNG"} alt="" height={60} width={60} />
         </Link>
-        {/* <ul className="list-none xl:flex hidden  items-center flex-1">
-          {navLinks.map((nav, index) => {
+        <ul className="list-none xl:flex hidden  items-center flex-1">
+          {navLinks.map((nav:any, index:number) => {
+            // @ts-ignore
             if (!nav?.list) {
               return (
                 <li
@@ -59,6 +60,8 @@ const Navbar = () => {
                 </li>
               );
             }
+            // @ts-ignore
+
             if (nav.list) {
               return (
                 <Menu as="div" className="relative inline-block" key={nav.id}>
@@ -79,7 +82,7 @@ const Navbar = () => {
                       "absolute right-0 w-fit origin-top-right  bg-white border border-darkGray rounded-lg py-2  outline-none shadow-inner"
                     }
                   >
-                    {nav.list.map((item) => (
+                    {nav.list.map((item:any) => (
                       <Menu.Item key={item.id}>
                         <Link
                           className="dropdown-link text-primary block  whitespace-nowrap "
@@ -94,7 +97,7 @@ const Navbar = () => {
               );
             }
           })}
-        </ul> */}
+        </ul>
         <PLink
           href="become-a-member"
           text="Become A Member"
@@ -119,7 +122,7 @@ const Navbar = () => {
           `}
           >
             <ul className="list-none flex justify-end items-start flex-1 flex-col">
-              {navLinks.map((nav, index) => (
+              {navLinks?.map((nav:any, index:number) => (
                 <li
                   key={nav.id}
                   className={`
