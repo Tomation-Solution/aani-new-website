@@ -33,7 +33,7 @@ const Navbar = () => {
         </Link>
         <ul className="list-none xl:flex hidden  items-center flex-1">
           {navLinks.map((nav, index) => {
-            if (!nav.list) {
+            if (!nav?.list) {
               return (
                 <li
                   key={nav.id}

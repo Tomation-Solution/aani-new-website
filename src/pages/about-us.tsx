@@ -69,10 +69,10 @@ export default function Home() {
                   The Genesis of the Association
                   </h3>
                   <p className="font-normal  text-[18px]  lg:text-[25px] text-black">
-                  In his lecture at the 30th anniversary of the Institute Chief Olusegun Obasanjo, GCFR, founder of NIPSS and former President of the Federal Republic of Nigeria described the Alumni Association of the National Institute (AANI) as "an unplanned outcome of a purposeful action". The Association was inaugurated twice.
+                  In his lecture at the 30th anniversary of the Institute Chief Olusegun Obasanjo, GCFR, founder of NIPSS and former President of the Federal Republic of Nigeria described the Alumni Association of the National Institute (AANI) as {`"an unplanned outcome of a purposeful action"`}. The Association was inaugurated twice.
                   </p>
                   <p className="font-normal  text-[18px]  lg:text-[25px] text-black">
-                  The first inauguration was done by the pioneer Director- General, late Major-General TB Ogundeko, in March 1980 during the graduation ceremony of Senior Executive Course 1, 1979, in Jos. The second inauguration took place in Kuru on Saturday, 28 February, 1981, under the distinguished chairmanship of late Alhaji Ahmed Talib, a key member of the very first Board of Governors. The intention was, and still remains: "to provide all former students with a formal and continuing opportunity to relate to the ideas and activities of the Institute".
+                  The first inauguration was done by the pioneer Director- General, late Major-General TB Ogundeko, in March 1980 during the graduation ceremony of Senior Executive Course 1, 1979, in Jos. The second inauguration took place in Kuru on Saturday, 28 February, 1981, under the distinguished chairmanship of late Alhaji Ahmed Talib, a key member of the very first Board of Governors. The intention was, and still remains: {`"to provide all former students with a formal and continuing opportunity to relate to the ideas and activities of the Institute".`}
                   </p>
                 </div>
 
@@ -88,12 +88,12 @@ export default function Home() {
                   </p>
 
                   <p className="font-normal  text-[18px]  lg:text-[25px] text-black">
-                  The new configuration was based on contiguity of states, convenience of contact, and programming' rather than on membership strength. Each Zone is headed by a Chairman, who is automatically a member of the National Executive Committee. The zones engage in activities which are designed to promote the gains of the Senior Executive Course, and the Kuru dream.
+                  The new configuration was based on contiguity of states, convenience of contact, and programming rather than on membership strength. Each Zone is headed by a Chairman, who is automatically a member of the National Executive Committee. The zones engage in activities which are designed to promote the gains of the Senior Executive Course, and the Kuru dream.
                   </p>
 
                   
                   <p className="font-normal  text-[18px]  lg:text-[25px] text-black">
-                  The contribution of the zones to national development is through seminars, symposia, and similar activities, where issues strategic to the nation's progress are discussed. From ten zones in 2003, the Association now has twenty-seven Chapters functioning in twenty-seven states of the federation. The Association elects an executive committee every two years to run its affairs. The National Executive Committee (NEC) comprises the President and these other members, namely:
+                  The contribution of the zones to national development is through seminars, symposia, and similar activities, where issues strategic to the nations progress are discussed. From ten zones in 2003, the Association now has twenty-seven Chapters functioning in twenty-seven states of the federation. The Association elects an executive committee every two years to run its affairs. The National Executive Committee (NEC) comprises the President and these other members, namely:
                   </p>
                         <ol>
                           <li>Vice-President</li>
