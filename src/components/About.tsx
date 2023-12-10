@@ -8,33 +8,33 @@ interface AboutProps {
   max?: string;
 }
 export const publicationAndNews = [
-  {
-    'title':'Business Process & Performance Review version 4',
-    'content':[],
-    is_dowload:true,
-    img:'/ai_lin.png',
-    type:'publication',
-    id:'1',
-    link:'/pub-news/1',
-    dowloadFile:'https://drive.google.com/file/d/1lvQUbfo2-3iD_94uEnbB2jQCqFNZF1wX/view?usp=sharing',
-  },
-  {
-    'title':'Business Process & Performance Review',
-    'content':[],
-    is_dowload:true,
-    img:'/bpmi_pbu_1.png',
-    type:'publication',
-    id:'2',
-    link:'/pub-news/2',
-    dowloadFile:'https://drive.google.com/file/d/1Wk4JPSw2z_vgKXQ-jCG4jhwJr8oMzd6h/view?usp=sharing',
-  }
+  // {
+  //   'title':'Business Process & Performance Review version 4',
+  //   'content':[],
+  //   is_dowload:true,
+  //   img:'/ai_lin.png',
+  //   type:'publication',
+  //   id:'1',
+  //   link:'/pub-news/1',
+  //   dowloadFile:'https://drive.google.com/file/d/1lvQUbfo2-3iD_94uEnbB2jQCqFNZF1wX/view?usp=sharing',
+  // },
+  // {
+  //   'title':'Business Process & Performance Review',
+  //   'content':[],
+  //   is_dowload:true,
+  //   img:'/bpmi_pbu_1.png',
+  //   type:'publication',
+  //   id:'2',
+  //   link:'/pub-news/2',
+  //   dowloadFile:'https://drive.google.com/file/d/1Wk4JPSw2z_vgKXQ-jCG4jhwJr8oMzd6h/view?usp=sharing',
+  // }
 ];
 
 const About = ({ max }: AboutProps) => {
   return (
     <div className="mt-8 md:mt-16">
       <h2 className="text-[#00305E] font-bold text-[25px] md:text-[36px] text-center mb-10 mx-3">
-        Publications & News
+        Publications & News(Coming Soon!)
       </h2>
       <div className="grid xl:grid-cols-2 gap-4 sm:grid-cols-1 mb-4 md:mb-10">
         <Search />

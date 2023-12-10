@@ -78,7 +78,9 @@ const GetMore = () => {
               <h2 className="text-primary font-bold text-[39px] font-inter ">
                 Join Our Upcoming <br /> Events
               </h2>
-              <div className="">
+
+              <h3 className="text-center">Coming Soon!!</h3>
+              {/* <div className="">
                 {eventdata.map((a,index) => (
                   <div
                     key={index}
@@ -95,7 +97,7 @@ const GetMore = () => {
                     </p>
                   </div>
                 ))}
-              </div>
+              </div> */}
               <div className="flex w-full justify-center p-16">
                 <PLink
                   href="event"
