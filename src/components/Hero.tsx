@@ -65,18 +65,17 @@ const Hero = ({ img, title }: HeroProp) => {
 export const Herofn = ({ img, title }: HeroProp) => {
   return (
     <div className="relative flex  items-center justify-center min-h-[400px] md:min-h-[500px] mb-10">
-      <Image
+      <img
       
         // src={`/${img}.jpg`}
         src={`/aani/IMG-20220901-WA0502.jpg`}
         className="w-[100%]  
      h-[100%] 
       absolute
-      object-cover
       "
         alt=""
-        height={500}
-        width={1000}
+        // height={500}
+        // width={1000}
       />
       <div className="bg-[black] absolute w-full h-full z-10 opacity-[0.3]" />
       <div
